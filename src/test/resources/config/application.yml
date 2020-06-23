@@ -3,8 +3,6 @@
 #
 # This configuration is used for unit/integration tests.
 #
-# More information on profiles: https://www.jhipster.tech/profiles/
-# More information on configuration properties: https://www.jhipster.tech/common-application-properties/
 # ===================================================================
 
 # ===================================================================
@@ -24,8 +22,7 @@ spring:
       host: localhost
       port: 0
       database: Brand
-  mail:
-    host: localhost
+      auto-index-creation: false
   main:
     allow-bean-definition-overriding: true
   messages:
@@ -65,9 +62,6 @@ jhipster:
       host: localhost
       port: 5000
       queue-size: 512
-  mail:
-    from: test@localhost
-    base-url: http://127.0.0.1:8080
   security:
     authentication:
       jwt:

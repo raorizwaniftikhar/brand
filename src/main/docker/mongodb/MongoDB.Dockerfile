@@ -1,2 +1,2 @@
-FROM mongo:4.2.7
+FROM mongo
 ADD mongodb/scripts/init_replicaset.js init_replicaset.js

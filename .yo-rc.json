@@ -33,6 +33,17 @@
     "dtoSuffix": "DTO",
     "otherModules": [],
     "enableTranslation": false,
-    "blueprints": []
+    "blueprints": [],
+    "appsFolders": ["Brand"],
+    "directoryPath": "../",
+    "clusteredDbApps": ["Brand"],
+    "dockerRepositoryName": "raorizwaniftikhar",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "default",
+    "kubernetesServiceType": "LoadBalancer",
+    "kubernetesUseDynamicStorage": false,
+    "ingressDomain": "",
+    "monitoring": "no",
+    "istio": false
   }
 }

@@ -1,10 +1,10 @@
+ ${AnsiColor.GREEN} ,-----.                                ,--. ${AnsiColor.RED}      ,---.   ,------.  ,--. 
+ ${AnsiColor.GREEN} |  |) /_  ,--.--.  ,--,--. ,--,--,   ,-|  | ${AnsiColor.RED}     /  O  \  |  .--. ' |  | 
+ ${AnsiColor.GREEN} |  .-.  \ |  .--' ' ,-.  | |      \ ' .-. | ${AnsiColor.RED}    |  .-.  | |  '--' | |  | 
+ ${AnsiColor.GREEN} |  '--' / |  |    \ '-'  | |  ||  | \ `-' | ${AnsiColor.RED}    |  | |  | |  | --'  |  | 
+ ${AnsiColor.GREEN} `------'  `--'     `--`--' `--''--'  `---'  ${AnsiColor.RED}    `--' `--' `--'      `--' 
 
-  ${AnsiColor.GREEN}      ██╗${AnsiColor.RED} ██╗   ██╗ ████████╗ ███████╗   ██████╗ ████████╗ ████████╗ ███████╗
-  ${AnsiColor.GREEN}      ██║${AnsiColor.RED} ██║   ██║ ╚══██╔══╝ ██╔═══██╗ ██╔════╝ ╚══██╔══╝ ██╔═════╝ ██╔═══██╗
-  ${AnsiColor.GREEN}      ██║${AnsiColor.RED} ████████║    ██║    ███████╔╝ ╚█████╗     ██║    ██████╗   ███████╔╝
-  ${AnsiColor.GREEN}██╗   ██║${AnsiColor.RED} ██╔═══██║    ██║    ██╔════╝   ╚═══██╗    ██║    ██╔═══╝   ██╔══██║
-  ${AnsiColor.GREEN}╚██████╔╝${AnsiColor.RED} ██║   ██║ ████████╗ ██║       ██████╔╝    ██║    ████████╗ ██║  ╚██╗
-  ${AnsiColor.GREEN} ╚═════╝ ${AnsiColor.RED} ╚═╝   ╚═╝ ╚═══════╝ ╚═╝       ╚═════╝     ╚═╝    ╚═══════╝ ╚═╝   ╚═╝
-
-${AnsiColor.BRIGHT_BLUE}:: JHipster 🤓  :: Running Spring Boot ${spring-boot.version} ::
-:: https://www.jhipster.tech ::${AnsiColor.DEFAULT}
+${AnsiColor.BRIGHT_BLUE}:: Brand API 🤓  :: Running Spring Boot ${spring-boot.version} ::
+:: DEVELOPER: Rizwan Iftikhar ::${AnsiColor.DEFAULT}
+:: EMAIL: raorizwaniftikhar@gmail.com ::${AnsiColor.DEFAULT}
+:: PHON: +92301-6611677 ::${AnsiColor.DEFAULT}
