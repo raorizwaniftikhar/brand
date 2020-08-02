@@ -1,0 +1,289 @@
+{
+	"id": "9c3e1f52-5b01-4c9f-b2ad-9e3eebfd83e7",
+	"name": "Brand",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"41f8c3c2-92dc-4b7d-a300-0c6c3dd310d2",
+		"c5f37e72-f9a7-4895-a934-9496a24eff20",
+		"c3af5753-5305-40ae-af08-84cdad59f79b",
+		"60b7b3f5-bf62-44e1-b76f-f294258a8df6",
+		"81547d72-f7c2-4e2a-b833-f53b48e59c0f",
+		"a714367b-a910-4fe9-bd3e-a7b0961aff19",
+		"55aa2d26-8d55-4d24-bbbf-49ecfb5fcf07",
+		"fc04b48a-22b3-4402-baf4-ec82a240a187",
+		"ff61c208-87b0-4168-8597-d17223ce28de"
+	],
+	"folders_order": [],
+	"protocolProfileBehavior": {},
+	"folders": [],
+	"requests": [
+		{
+			"id": "41f8c3c2-92dc-4b7d-a300-0c6c3dd310d2",
+			"name": "http://192.168.99.100:31555/api/v2/brands",
+			"url": "http://192.168.99.100:31555/api/v2/brands",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": null,
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "noauth",
+				"noauth": []
+			},
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n       \"data\": {\n          \"type\": \"brands \",\n          \"name\": \"Clothing\",\n          \"slug\": \"cool-clothing\",\n          \"description\": \"Cool clothing make cool clothes!\",\n          \"status\": \"live\"\n       }\n     }",
+			"pathVariables": {}
+		},
+		{
+			"id": "55aa2d26-8d55-4d24-bbbf-49ecfb5fcf07",
+			"name": "http://192.168.99.100:31555/api/v2/brands?page=0&size=2&sort=type,desc",
+			"url": "http://192.168.99.100:31555/api/v2/brands?page=0&size=2&sort=type,desc",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "page",
+					"value": "0",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "size",
+					"value": "2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "sort",
+					"value": "type,desc",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": {
+				"type": "noauth",
+				"noauth": []
+			},
+			"events": null,
+			"folder": null,
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"rawModeData": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "60b7b3f5-bf62-44e1-b76f-f294258a8df6",
+			"name": "http://192.168.99.100:31555/api/v2/brands/name/new Clothing",
+			"url": "http://192.168.99.100:31555/api/v2/brands/name/new Clothing",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "noauth",
+				"noauth": []
+			},
+			"events": null,
+			"folder": null,
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"rawModeData": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "81547d72-f7c2-4e2a-b833-f53b48e59c0f",
+			"name": "http://192.168.99.100:31555/api/v2/brands/slug/new cool-clothing",
+			"url": "http://192.168.99.100:31555/api/v2/brands/slug/new cool-clothing",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "noauth",
+				"noauth": []
+			},
+			"events": null,
+			"folder": null,
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"rawModeData": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "a714367b-a910-4fe9-bd3e-a7b0961aff19",
+			"name": "http://192.168.99.100:31555/api/v2/brands/status/live",
+			"url": "http://192.168.99.100:31555/api/v2/brands/status/live",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "noauth",
+				"noauth": []
+			},
+			"events": null,
+			"folder": null,
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"rawModeData": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "c3af5753-5305-40ae-af08-84cdad59f79b",
+			"name": "http://192.168.99.100:31555/api/v2/brands/5f10fde68c75a912053d10a7",
+			"url": "http://192.168.99.100:31555/api/v2/brands/5f10fde68c75a912053d10a7",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "noauth",
+				"noauth": []
+			},
+			"events": null,
+			"folder": null,
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"rawModeData": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "c5f37e72-f9a7-4895-a934-9496a24eff20",
+			"name": "http://192.168.99.100:31555/api/v2/brands",
+			"url": "http://192.168.99.100:31555/api/v2/brands",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": null,
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "noauth",
+				"noauth": []
+			},
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n       \"data\": {  \n          \"id\": \"5f10fde68c75a912053d10a7\",\n          \"type\": \"new brand\",\n          \"name\": \"new Clothing\",\n          \"slug\": \"new cool-clothing\",\n          \"description\": \"new clothing make cool clothes!\",\n          \"status\": \"live\"\n       }\n     }",
+			"pathVariables": {}
+		},
+		{
+			"id": "fc04b48a-22b3-4402-baf4-ec82a240a187",
+			"name": "http://192.168.99.100:31555/api/v2/brands/count",
+			"url": "http://192.168.99.100:31555/api/v2/brands/count",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "noauth",
+				"noauth": []
+			},
+			"events": null,
+			"folder": null,
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"rawModeData": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "ff61c208-87b0-4168-8597-d17223ce28de",
+			"name": "http://192.168.99.100:31555/api/v2/brands/5f10fde68c75a912053d10a7",
+			"url": "http://192.168.99.100:31555/api/v2/brands/5f10fde68c75a912053d10a7",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": null,
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "noauth",
+				"noauth": []
+			},
+			"events": null,
+			"folder": null,
+			"rawModeData": "",
+			"pathVariables": {}
+		}
+	]
+}
