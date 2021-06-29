@@ -1,0 +1,63 @@
+Find Port no:
+
+kubectl get svc brand
+
+Find IP Address
+
+minikube ip
+
+Insert Data:
+
+curl -k --location --request POST 'https://172.17.0.2:31284/api/v2/brands' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+       "data": {
+          "type": "brands ",
+          "name": "Clothing",
+          "slug": "cool-clothing",
+          "description": "Cool clothing make cool clothes!",
+          "status": "live"
+       }
+     }'
+
+update Data:
+
+    curl -k --location --request PUT 'https://172.17.0.2:31284/api/v2/brands' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+       "data": {  
+          "id": "5ef8e4e837b1de2b254a7bf6",
+          "type": "new brand",
+          "name": "new Clothing",
+          "slug": "new cool-clothing",
+          "description": "new clothing make cool clothes!",
+          "status": "live"
+       }
+     }'
+
+search Data:byId
+
+     curl -k --location --request GET 'https://172.17.0.2:31284/api/v2/brands/5ef8e4e837b1de2b254a7bf6' \
+--data-raw ''
+
+byName:
+ curl -k --location --request GET 'https://172.17.0.2:31284/api/v2/brands/name/"new Clothing"' \
+--data-raw ''
+
+bySlug:
+ curl -k --location --request GET 'https://172.17.0.2:31284/api/v2/brands/slug/new cool-clothing' \
+--data-raw ''
+
+ByType:
+ curl -k --location --request GET 'https://172.17.0.2:31284/api/v2/brands/status/live' \
+--data-raw ''
+
+getAllData:
+
+curl -k --location --request GET 'https://172.17.0.2:31284/api/v2/brands?page=0&size=2&sort=type,desc' \
+--data-raw ''
+
+Delete Data:
+
+curl -k --location --request DELETE 'https://172.17.0.2:31284/api/v2/brands/5ef8e4e837b1de2b254a7bf6' \
+--data-raw ''

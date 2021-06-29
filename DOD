@@ -1,0 +1,15 @@
+JAVA verion: 11
+Spring Boot
+Dokcer
+K8s
+
+Source code folder  = src/main/
+
+Testing Code folder : src/test
+
+Swagger URL = https://ip:port/v2/api-docs
+
+
+For Local Deploment please ping me.
+
+if You want use JWT-TOKEN then in "src/main/java/" and package name "com.java.brand.config" and file name "SecurityConfiguration.java" uncomments line no 77 ".antMatchers("/api/**").authenticated()" and Comments line 78
